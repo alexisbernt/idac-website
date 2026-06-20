@@ -4,8 +4,19 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">IDAC Blog</div>
+      {/* Logo Section */}
+      <div className="navbar-logo">
+        <img
+          src="/iam-learning-logo.png"
+          alt="IAM Learning Logo"
+          className="logo-image"
+        />
+        <p className="logo-subtitle">
+          A blog by Alexis Bernthal
+        </p>
+      </div>
 
+      {/* Navigation Links */}
       <div className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
