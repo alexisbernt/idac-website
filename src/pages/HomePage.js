@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import TreasureMap from "../components/TreasureMap";
 import Footer from "../components/Footer";
+// import "../styles/HomePage.css";
 
 function HomePage() {
   return (
@@ -10,12 +11,12 @@ function HomePage() {
       <TreasureMap />
 
       <section className="home-content">
-        <h2>A Modern Technology Journey</h2>
+        <h2>The Journey Into Identity & Technology</h2>
 
         <p>
-          Identity, security, technology, podcasts,
-          conferences, and the unexpected paths
-          that connect them all.
+          From technology audits and assessments to IAM,
+          conferences, podcasts, certifications, and the
+          unexpected opportunities that shaped my career.
         </p>
       </section>
 
