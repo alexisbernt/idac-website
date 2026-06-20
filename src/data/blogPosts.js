@@ -9,13 +9,13 @@ const blogPosts = [
     link: "/blog/ai-building-itself",
   },
   {
-    title: "Feeding 10 billion people will require new technology",
+    title: "Identiverse 2026",
     description:
-      "Startups are combining AI and genetics to make more food for less money",
-    category: "Science & technology",
-    image: "/food-tech.jpg",
-    readTime: "6 min read",
-    link: "/blog/feeding-10-billion",
+      "Exploring identity and technology at the 2026 Identiverse conference",
+    category: "Identity & technology",
+    image: "/identiverse-26.png",
+    readTime: "2 min read",
+    link: "/blog/identiverse-2026",
   },
 ];
 
