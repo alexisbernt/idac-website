@@ -4,12 +4,13 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/AboutPage.css";
 
-// EmailJS credentials (service, template, public key).
-// Public key is safe to expose client-side; never put your EmailJS
-// private key in frontend code — it belongs only in server-side code.
-const EMAILJS_SERVICE_ID = "service_n1gxc8h";
-const EMAILJS_TEMPLATE_ID = "template_7bcamym";
-const EMAILJS_PUBLIC_KEY = "JrAOleQKfiUHgCuhD";
+// EmailJS credentials, pulled from environment variables so they never
+// get committed to git. See .env.local (gitignored) for actual values.
+// Note: the public key is still visible in the shipped JS bundle once
+// built — that's expected/safe for EmailJS. 
+const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
 function AboutPage() {
   const [email, setEmail] = useState("");
@@ -75,11 +76,10 @@ function AboutPage() {
       <section className="newsletter-section">
         <div className="newsletter-card">
           <h2 className="newsletter-heading">
-            From our newsroom to your inbox.
+            Identity Access Management insights to your inbox.
           </h2>
           <p className="newsletter-subtext">
-            Sign up to access free newsletters for global insights, delivered
-            daily.
+            Sign up to access free newsletters. No spam, just the good stuff. Once a week maximum, and you can unsubscribe anytime.
           </p>
 
           <form className="newsletter-form" onSubmit={handleSubmit} noValidate>
