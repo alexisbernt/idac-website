@@ -1,0 +1,148 @@
+.featured-articles {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 0 3rem;
+  max-width: 1200px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* ---------- shared text styles ---------- */
+.article-category {
+  color: #c1121f;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: none;
+  margin: 0 0 0.4rem;
+}
+
+.article-dek {
+  font-size: 0.95rem;
+  color: #2b2b2b;
+  margin: 0.35rem 0;
+  line-height: 1.4;
+}
+
+.article-readtime {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+  margin: 0.25rem 0 0;
+}
+
+a.lead-article,
+a.secondary-article {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* ---------- lead (left) article ---------- */
+.lead-article-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  background-color: #e5e1d8;
+}
+
+.lead-article-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.lead-headline {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #121212;
+  margin: 0 0 0.5rem;
+}
+
+.lead-article .article-dek {
+  font-size: 1.05rem;
+}
+
+/* ---------- secondary (right) articles ---------- */
+.secondary-articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+}
+
+.secondary-article:first-child {
+  padding-top: 0;
+}
+
+.secondary-article:not(:last-child) {
+  border-bottom: 1px solid #d8d4ca;
+}
+
+.secondary-article-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.secondary-headline {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #121212;
+  margin: 0 0 0.35rem;
+}
+
+.secondary-article-image {
+  flex-shrink: 0;
+  width: 130px;
+  height: 95px;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: #e5e1d8;
+}
+
+.secondary-article-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 800px) {
+  .featured-articles {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .lead-headline {
+    font-size: 1.6rem;
+  }
+
+  .secondary-article-image {
+    width: 100px;
+    height: 75px;
+  }
+}
+
+@media (max-width: 480px) {
+  .secondary-article {
+    flex-direction: column;
+  }
+
+  .secondary-article-image {
+    width: 100%;
+    height: 160px;
+  }
+}
