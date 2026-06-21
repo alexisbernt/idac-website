@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import FeaturedArticles from "../components/FeaturedArticles";
 import TreasureMap from "../components/TreasureMap";
 import Footer from "../components/Footer";
 // import "../styles/HomePage.css";
@@ -7,6 +8,8 @@ function HomePage() {
   return (
     <>
       <Navbar />
+
+      <FeaturedArticles />
 
       <TreasureMap />
 
