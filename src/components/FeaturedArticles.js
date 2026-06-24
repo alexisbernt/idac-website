@@ -14,12 +14,12 @@ const leadArticle = {
 
 const secondaryArticles = [
   {
-    category: "Conferences",
-    headline: "Lessons From the Identity Conference Circuit",
-    dek: "What three years of conferences taught me",
+    category: "RAG: Retrieval-Augmented Generation",
+    headline: "An insight to what is going on behind the scenes of ChatGPT and other LLMs",
+    dek: "What is Retrieval-Augmented Generation? In Basic Terms with a Weird Comparison",
     readTime: "4 min read",
-    image: "/placeholder-secondary-1.jpg",
-    link: "#",
+    image: "/rag.png",
+    link: "/blog/rag",
   },
   {
     category: "Podcasts",
