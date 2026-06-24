@@ -11,7 +11,7 @@ const blogPosts = [
   {
     title: "Identiverse 2026",
     description:
-      "Exploring identity and technology at the 2026 Identiverse conference",
+      "'Cara de pau' to get to the 2026 Identiverse conference",
     category: "Identity & technology",
     image: "/identiverse-26.png",
     readTime: "2 min read",

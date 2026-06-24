@@ -5,11 +5,11 @@ import "../styles/FeaturedArticles.css";
 // are the two smaller stacked stories on the right.
 const leadArticle = {
   category: "Identity & Security",
-  headline: "How a Career Pivot Led Into Identity Security",
-  dek: "A new chapter narrowed the gap between audits and access.",
-  readTime: "7 min read",
-  image: "/placeholder-lead.jpg",
-  link: "#",
+  headline: "'Cara de pau' to get to the 2026 Identiverse conference",
+  dek: "The story of how I got introduced to Identity Access Management",
+  readTime: "3 min read",
+  image: "/identiverse-26.png",
+  link: "/blog/identiverse-2026",
 };
 
 const secondaryArticles = [
