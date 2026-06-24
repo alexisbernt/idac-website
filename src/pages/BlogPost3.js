@@ -23,7 +23,7 @@ function Blog3() {
         </h1>
 
         <p className="blog-dek">
-          How to get the best out of AI — and why the formula is simpler than you think
+          How to get the best out of AI - 4 Things
         </p>
 
         {/* ── Share row ── */}
@@ -66,7 +66,7 @@ function Blog3() {
             allowFullScreen
           ></iframe>
           <figcaption className="blog-hero-caption">
-            VIDEO: AI PROMPT FORMULA WALKTHROUGH
+            VIDEO: AI PROMPT FORMULA WALKTHROUGH SHORT
           </figcaption>
         </figure>
 
@@ -78,8 +78,7 @@ function Blog3() {
 
           <p className="blog-drop-cap">
             AI is being woven into workflows across every industry right now.
-            And the single biggest variable in whether it helps or frustrates
-            you is not which tool you use — it is how you ask.
+            It seems like EVERY big company or institution is 'heavily investing' in AI, and the tools are getting better and more capable every day. The potential is enormous, but so is the risk of frustration. To decide whether AI is a help or a hindrance, you need to understand how to ask it questions. The good news: There is a formula for that.
           </p>
 
           <p>
@@ -87,13 +86,13 @@ function Blog3() {
             fluent, completely wrong answers. The more descriptive and precise
             your prompt, the less room there is for the model to fill in the
             blanks with something plausible-sounding but inaccurate. Vague
-            inputs produce vague outputs. Garbage in, garbage out — except the
+            inputs produce vague outputs. If you've taken a computer science class you've probably heard the saying: garbage in, garbage out. Except, in the case of AI, the
             garbage is often presented in beautifully structured paragraphs,
             which makes it harder to spot.
           </p>
 
           <p>
-            The good news: there is a formula. It is not magic, but it works.
+            Again, my good news for you (because we need more optimism in our technical lives), is that there is a formula. It is not magic, but it works.
           </p>
 
           {/* ── Formula callout ── */}
@@ -108,41 +107,40 @@ function Blog3() {
 
           <p>
             <strong>Role</strong> tells the AI what perspective to adopt before
-            it starts generating. Think of it as casting — you are deciding who
-            is in the room answering your question. "Act as a cybersecurity
+            it starts generating. Think of it as casting. You are deciding who
+            is in the room answering your question. Examples: "Act as a cybersecurity
             lawyer," "respond as an enthusiastic high school science teacher,"
             "write as a skeptical financial analyst." The role narrows the
             model's frame of reference before the task begins, which changes
             its vocabulary, tone, and how it prioritizes information. [A model
             told to act as a senior consultant will produce very different
-            output than the same model responding as a friendly generalist —
-            even with an identical question.]
+            output than the same model responding as a friendly generalist.]
           </p>
 
           <p>
-            <strong>Task</strong> is the actual ask — the specific goal or
-            deliverable you want. Be concrete. "Summarize this" is weaker than
+            <strong>Task</strong> is the actual ask. The specific goal or
+            deliverable you want. Be concrete. "Summarize this" versus
             "Summarize the three main risks in this document in plain language."
+            See the difference?
             The task should define what success looks like before the model
             starts generating.
           </p>
 
           <p>
             <strong>Context</strong> is the background information the AI needs
-            to answer well. What is the scenario? Who is the audience? What
+            to answer well. Ask: What is the scenario? Who is the audience? What
             constraints apply? What has already been tried? Context is where
-            most prompts fall short — people state the task but leave out the
-            framing that would make a good answer obvious. Think of it like
-            briefing a contractor: they can build you something without context,
-            but it probably will not fit the space you had in mind.
+            most prompts fall short. People state the task but leave out the
+            framing that would make a good answer come back.
           </p>
 
           <p>
             <strong>Format</strong> specifies what kind of output you want.
-            Bullet points or prose? A table? Code? A numbered list? A one-page
-            summary or a full report? If you do not specify, the model will
+            Consider: Bullet points or prose? A table? Code? A numbered list? A one-page
+            summary or a full report? Does it need to include your company's branding?
+            PowerPoint? Excel? If you do not specify, the model will
             default to whatever format it considers most typical for your
-            request — which may not be what you need. [Telling an AI "respond
+            request. [Telling an AI "respond
             in a three-row table with columns for risk, likelihood, and
             mitigation" gets you exactly that. Not specifying gets you three
             paragraphs that you then have to manually reformat anyway.]
@@ -175,8 +173,7 @@ function Blog3() {
           </div>
 
           <p>
-            The second prompt is longer. It is also significantly more useful —
-            and requires far fewer follow-up questions or rounds of revision.
+            The second prompt is longer and requires far fewer follow-up questions or rounds of revision.
           </p>
 
           <h2 className="blog-section-heading">What has changed in 2026</h2>
@@ -188,16 +185,15 @@ function Blog3() {
 
           <p>
             <strong>Models got better at reading intent.</strong> Casual
-            prompting — just typing what you want in plain language — now works
+            prompting which means just typing what you want in plain language now works
             well for everyday tasks. The formula matters most in production
-            contexts: when you need consistent outputs, when the stakes are
+            contexts: This would be when you need consistent outputs, when the stakes are
             high, or when you are building something that runs the same prompt
             thousands of times.
           </p>
 
           <p>
-            <strong>Prompt engineering became everyone's job.</strong> Fast
-            Company reported in May 2025 that prompt engineering as a standalone
+            <strong>Prompt engineering became everyone's job.</strong> In May 2025 is was reported that prompt engineering as a standalone
             role had largely disappeared, with the majority of firms now
             providing it as standard training across all roles. The skill got
             absorbed into the job description of anyone who works with AI.
@@ -206,21 +202,20 @@ function Blog3() {
 
           <p>
             <strong>Chain-of-thought prompting evolved.</strong> Asking a model
-            to "think step by step" used to reliably improve output quality on
-            complex tasks. On newer reasoning models — which now do internal
-            step-by-step thinking on their own — adding that phrase can actually
-            hurt performance. The models have internalized the technique; telling
-            them to use it again can get in the way.
+            to "think step by step" USED to reliably improve output quality on
+            complex tasks. On newer reasoning models (which now do internal
+            step-by-step thinking on their own) adding that phrase can actually
+            hurt performance. The models have internalized the technique now, so it is no longer necessary to explicitly ask for it. 
           </p>
 
           <p>
             <strong>Structured output matters more in agentic workflows.</strong>{" "}
-            As AI systems increasingly act as orchestrators — breaking tasks into
+            As AI systems increasingly act as orchestrators, which means breaking tasks into
             sub-tasks, querying tools, and generating structured outputs for
-            downstream systems — precise format instructions have become
-            genuinely critical. An agent returning malformed JSON can break an
+            downstream systems, precise format instructions have become
+            genuinely critical. An agent returning a malformed JSON can break an
             entire pipeline. Format is no longer just a preference; in
-            production, it is a contract.
+            production, it is a contract [and I'm so excited I was able to use a semi-colon in that sentence.]
           </p>
 
           <h2 className="blog-section-heading">The one rule behind the formula</h2>
@@ -234,20 +229,20 @@ function Blog3() {
 
           <p>
             Start the AI conversation early in a project to get an initial draft,
-            then refine. The best results come from iteration — not from trying to
+            then refine. The best results come from iteration. Not from trying to
             write the perfect prompt on the first attempt. Collaboration between
             human intent and AI generation is where the real power sits.
           </p>
 
           <p>
-            And always review and validate what comes back. The formula reduces
+            And always [did I say ALWAYS] review and validate what comes back. The formula reduces
             hallucinations, but it does not eliminate them. You are still the
             one responsible for what goes out the door.
           </p>
 
           <p className="blog-sign-off">
-            If this was useful, the mailing list goes deeper — subscribe for
-            free and get updates on AI, identity, and the tools shaping how
+            If this was useful, the mailing list goes deeper. Subscribe for
+            free [did I say FREE] and get updates on AI, identity, and the tools shaping how
             we work.
           </p>
 
