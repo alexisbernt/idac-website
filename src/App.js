@@ -12,6 +12,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/identiverse-2026" element={<BlogPost1 />} />
+        <Route path="/blog/rag" element={<BlogPost1 />} />
       </Routes>
     </BrowserRouter>
   );
