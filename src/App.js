@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/blog" element={<BlogPage />} />
-        <Route path="/identiverse-2026" element={<BlogPost1 />} />
+        <Route path="/blog/identiverse-2026" element={<BlogPost1 />} />
       </Routes>
     </BrowserRouter>
   );

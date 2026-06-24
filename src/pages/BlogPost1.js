@@ -2,9 +2,17 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/BlogPost.css";
 
-// Swap this import for your real illustration when ready.
-// Place the image in src/assets/ and update the path below.
-// import placeholderImg from "../assets/placeholder-illustration.jpg";
+{/* Hero image — served from public/identiverse-26.png */}
+<figure className="blog-hero">
+  <img
+    src={`${process.env.PUBLIC_URL}/identiverse-26.png`}
+    alt="Illustration for the Identiverse article"
+    onError={(e) => { e.target.style.display = "none"; e.target.parentElement.classList.add("blog-hero--empty"); }}
+  />
+  <figcaption className="blog-hero-caption">
+    ILLUSTRATION: IDENTIVERSE 2026
+  </figcaption>
+</figure>
 
 function Blog1() {
   return (
@@ -47,12 +55,12 @@ function Blog1() {
         {/* ── Hero image ── */}
         <figure className="blog-hero">
           <img
-            src={placeholderImg}
+            src = {`${process.env.PUBLIC_URL}/identiverse-26.png`}
             alt="Illustration for the Identiverse article"
             onError={(e) => { e.target.style.display = "none"; e.target.parentElement.classList.add("blog-hero--empty"); }}
           />
           <figcaption className="blog-hero-caption">
-            ILLUSTRATION: PLACEHOLDER
+            ILLUSTRATION: IDENTIVERSE 2026
           </figcaption>
         </figure>
 
