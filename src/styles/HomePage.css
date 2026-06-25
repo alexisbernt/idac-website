@@ -1,0 +1,108 @@
+/* ─────────────────────────────────────────
+   HomePage.css  —  layout, divider, responsive
+   ───────────────────────────────────────── */
+
+/* ── Section divider between FeaturedArticles and TreasureMap ── */
+.section-divider {
+  border: none;
+  border-top: 1px solid #d8d4ca;
+  margin: 0 auto 2rem;
+  max-width: 1200px;
+  width: calc(100% - 3rem); /* matches FeaturedArticles side padding */
+}
+
+/* ── Home text content below TreasureMap ── */
+.home-content {
+  max-width: 720px;
+  margin: 2.5rem auto 3rem;
+  padding: 0 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.home-content h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #121212;
+  margin: 0 0 1rem;
+  line-height: 1.2;
+}
+
+.home-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+/* ─────────────────────────────────────────
+   Responsive scaling
+   ───────────────────────────────────────── */
+
+/* ── Large desktop (1400px+) ── */
+@media (min-width: 1400px) {
+  .home-content h2 {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-size: 1.1rem;
+  }
+}
+
+/* ── Tablet landscape / small desktop (800px–1199px) ── */
+@media (max-width: 1199px) {
+  .section-divider {
+    width: calc(100% - 2rem);
+  }
+
+  .home-content {
+    margin: 2rem auto 2.5rem;
+  }
+}
+
+/* ── Tablet portrait (600px–799px) ── */
+@media (max-width: 799px) {
+  .home-content {
+    margin: 1.75rem auto 2rem;
+    padding: 0 1.25rem;
+  }
+
+  .home-content h2 {
+    font-size: 1.45rem;
+  }
+}
+
+/* ── Mobile (480px and below) ── */
+@media (max-width: 480px) {
+  .section-divider {
+    width: calc(100% - 2rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .home-content {
+    margin: 1.5rem auto 1.75rem;
+    padding: 0 1rem;
+    text-align: left;
+  }
+
+  .home-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .home-content p {
+    font-size: 0.95rem;
+  }
+}
+
+/* ── Very small phones (360px and below) ── */
+@media (max-width: 360px) {
+  .home-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .home-content p {
+    font-size: 0.9rem;
+  }
+}
