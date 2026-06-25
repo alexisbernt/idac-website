@@ -59,21 +59,6 @@ function AboutPage() {
     <>
       <Navbar />
 
-      <section className="page-section about-section">
-        <h1>About</h1>
-
-        <p>
-          This blog follows a technology journey through identity access management, artificial intelligence, and cybersecurity. 
-          {/* It is a place to share insights, stories, podcast recs, conference updates, and lessons learned along the way. */}
-        </p>
-
-        <p>
-          A modern digital treasure map documenting the
-          twists and turns along the way.
-          Join the club below:
-        </p>
-      </section>
-
       <section className="newsletter-section">
         <div className="newsletter-card">
           <h2 className="newsletter-heading">
@@ -140,6 +125,21 @@ function AboutPage() {
             </button>
           </form>
         </div>
+      </section>
+
+      <section className="page-section about-section">
+        <h1>About</h1>
+
+        <p>
+          This blog follows a technology journey through identity access management, artificial intelligence, and cybersecurity. 
+          {/* It is a place to share insights, stories, podcast recs, conference updates, and lessons learned along the way. */}
+        </p>
+
+        <p>
+          A modern digital treasure map documenting the
+          twists and turns along the way.
+          Join the club and sign up for free (please)!
+        </p>
       </section>
 
       <Footer />

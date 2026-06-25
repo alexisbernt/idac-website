@@ -11,7 +11,7 @@ function BlogPage() {
 
       <section className="blog-page">
         <div className="blog-container">
-          <h1 className="blog-title">The Journey</h1>
+          <h1 className="blog-title">The Journey & Stories That Got Us Here</h1>
 
           <div className="blog-grid">
             {blogPosts.map((post, index) => (

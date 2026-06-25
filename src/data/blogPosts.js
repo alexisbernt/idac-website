@@ -1,12 +1,11 @@
 const blogPosts = [
   {
-    title: "How artificial intelligence got better at building itself",
-    description:
-      "What does recursive self-improvement mean for the technology?",
+    title: "AI Prompting Formula: The Hack to Get Better Results",
+    description: "Four things to include in your prompt to get better results from AI",
     category: "Science & technology",
-    image: "/ai.jpg",
-    readTime: "9 min read",
-    link: "/blog/ai-building-itself",
+    image: "/rag.png",
+    readTime: "4 min read",
+    link: "/blog/ai-formula",
   },
   {
     title: "Identiverse 2026",
