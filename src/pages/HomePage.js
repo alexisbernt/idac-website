@@ -16,9 +16,7 @@ function HomePage() {
       <section className="home-content">
         <h2>The Journey Into Identity &amp; Technology</h2>
         <p>
-          From technology audits and assessments to IAM,
-          conferences, podcasts, certifications, and the
-          unexpected opportunities that shaped my career.
+          Follow the winding path of a technology risk consulting associate turned identity access management enthusiast. 
         </p>
       </section>
 

@@ -13,7 +13,7 @@ function TreasureMap() {
       top: "40%"
     },
     {
-      title: "Found IDAC",
+      title: "Found IDAC Podcast",
       left: "35%",
       top: "62%"
     },
@@ -41,13 +41,13 @@ function TreasureMap() {
 
   return (
     <section className="treasure-map">
-      <div className="map-overlay">
+      {/* <div className="map-overlay">
         <h1>Technology Treasure Map</h1>
         <p>
           Follow the winding path that led from technology risk
           consulting to Identity Access Management.
         </p>
-      </div>
+      </div> */}
 
       {steps.map((step, index) => (
         <div
