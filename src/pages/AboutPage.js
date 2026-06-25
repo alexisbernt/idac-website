@@ -63,13 +63,14 @@ function AboutPage() {
         <h1>About</h1>
 
         <p>
-          This blog follows a technology journey through identity security,
-          podcasts, conferences, opportunities, and lessons learned.
+          This blog follows a technology journey through identity access management, artificial intelligence, and cybersecurity. 
+          {/* It is a place to share insights, stories, podcast recs, conference updates, and lessons learned along the way. */}
         </p>
 
         <p>
-          Think of it as a modern digital treasure map documenting the
+          A modern digital treasure map documenting the
           twists and turns along the way.
+          Join the club below:
         </p>
       </section>
 
