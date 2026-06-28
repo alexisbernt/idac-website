@@ -7,7 +7,7 @@ function Navbar() {
       {/* Logo Section */}
       <div className="navbar-logo">
         <img
-          src="/iam-learning-logo.png"
+          src={process.env.PUBLIC_URL + "/iam-learning-logo.png"}
           alt="IAM Learning Logo"
           className="logo-image"
         />
