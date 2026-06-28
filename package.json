@@ -2,7 +2,7 @@
   "name": "idac-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexisbernt.github.io/idac-website",
+  "homepage": "https://alexisbernt.github.io/idac-blog/idac-website",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.1",
