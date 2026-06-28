@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/idac-blog/static/css/main.815dcd0d.css",
+    "main.js": "/idac-blog/static/js/main.10fc03ac.js",
+    "static/js/453.6bb152a4.chunk.js": "/idac-blog/static/js/453.6bb152a4.chunk.js",
+    "static/media/treasure-map-bg.png": "/idac-blog/static/media/treasure-map-bg.400ab6b66ddada4d3e65.png",
+    "index.html": "/idac-blog/index.html",
+    "main.815dcd0d.css.map": "/idac-blog/static/css/main.815dcd0d.css.map",
+    "main.10fc03ac.js.map": "/idac-blog/static/js/main.10fc03ac.js.map",
+    "453.6bb152a4.chunk.js.map": "/idac-blog/static/js/453.6bb152a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.815dcd0d.css",
+    "static/js/main.10fc03ac.js"
+  ]
+}
