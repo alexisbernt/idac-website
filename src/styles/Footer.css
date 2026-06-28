@@ -1,0 +1,81 @@
+/* ─────────────────────────────────────
+   Footer.css  —  IDAC Blog footer
+   ───────────────────────────────────── */
+
+.footer {
+  margin-top: 4rem;
+  border-top: 1px solid #d8d4ca;
+  background-color: #f2efe9;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ── Copyright ── */
+.footer-copy {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  color: #6b6b6b;
+  margin: 0;
+}
+
+/* ── Nav links ── */
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.footer-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #2b2b2b;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footer-link:hover {
+  color: #c1121f;
+}
+
+.footer-divider {
+  color: #c8c4bc;
+  font-size: 0.82rem;
+  user-select: none;
+}
+
+/* ── YouTube icon link ── */
+.footer-link--icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.footer-youtube-icon {
+  display: block;
+  flex-shrink: 0;
+  color: #2b2b2b;
+  transition: color 0.15s ease;
+}
+
+.footer-link--icon:hover .footer-youtube-icon {
+  color: #ff0000;
+}
+
+/* ── Responsive: stack on very small screens ── */
+@media (max-width: 480px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+}
