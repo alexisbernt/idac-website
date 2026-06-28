@@ -2,7 +2,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/BlogPost.css";
 
-{/* Hero image — served from public/identiverse-26.png */}
 <figure className="blog-hero">
   <img
     src={`${process.env.PUBLIC_URL}/identiverse-26.png`}
