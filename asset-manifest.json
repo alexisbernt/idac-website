@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/idac-website/static/css/main.800fc0c8.css",
-    "main.js": "/idac-website/static/js/main.252286db.js",
+    "main.js": "/idac-website/static/js/main.430171fe.js",
     "static/js/453.6bb152a4.chunk.js": "/idac-website/static/js/453.6bb152a4.chunk.js",
     "static/media/treasure-map-bg.png": "/idac-website/static/media/treasure-map-bg.400ab6b66ddada4d3e65.png",
     "index.html": "/idac-website/index.html",
     "main.800fc0c8.css.map": "/idac-website/static/css/main.800fc0c8.css.map",
-    "main.252286db.js.map": "/idac-website/static/js/main.252286db.js.map",
+    "main.430171fe.js.map": "/idac-website/static/js/main.430171fe.js.map",
     "453.6bb152a4.chunk.js.map": "/idac-website/static/js/453.6bb152a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.800fc0c8.css",
-    "static/js/main.252286db.js"
+    "static/js/main.430171fe.js"
   ]
 }
