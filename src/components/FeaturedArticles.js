@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/FeaturedArticles.css";
 
 // Placeholder content — swap these out with your real articles, images,
@@ -34,21 +35,24 @@ const secondaryArticles = [
 function FeaturedArticles() {
   return (
     <section className="featured-articles">
-      <a className="lead-article" href={leadArticle.link}>
+      <Link to={leadArticle.link} className="lead-article">
         <div className="lead-article-image">
-          <img src={leadArticle.image} alt={leadArticle.headline} />
+          <img
+            src={process.env.PUBLIC_URL + leadArticle.image}
+            alt={leadArticle.headline}
+          />
         </div>
         <p className="article-category">{leadArticle.category}</p>
         <h2 className="lead-headline">{leadArticle.headline}</h2>
         <p className="article-dek">{leadArticle.dek}</p>
         <p className="article-readtime">{leadArticle.readTime}</p>
-      </a>
+      </Link>
 
       <div className="secondary-articles">
-        {secondaryArticles.map((article, index) => (
-          <a
+        {secondaryArticles.map((article) => (
+          <Link
+            to={article.link}
             className="secondary-article"
-            href={article.link}
             key={article.headline}
           >
             <div className="secondary-article-text">
@@ -58,9 +62,12 @@ function FeaturedArticles() {
               <p className="article-readtime">{article.readTime}</p>
             </div>
             <div className="secondary-article-image">
-              <img src={article.image} alt={article.headline} />
+              <img
+                src={process.env.PUBLIC_URL + article.image}
+                alt={article.headline}
+              />
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </section>

@@ -5,7 +5,7 @@ function BlogCard({ post }) {
     <Link to={post.link} className="blog-card-link">
       <article className="blog-card">
         <img
-          src={post.image}
+          src={process.env.PUBLIC_URL + post.image}
           alt={post.title}
           className="blog-card-image"
         />
