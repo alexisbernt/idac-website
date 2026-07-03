@@ -223,6 +223,7 @@ function Blog4() {
             one memory habit, and build your Agent OS one piece at a time. If
             this was useful, the mailing list goes deeper. Subscribe for free
             and get updates on AI, identity, and the tools shaping how we work.
+            Here's the link to check out the Agent OS from AIDB: <a href="https://aidbagentos.ai/projects" target="_blank" rel="noreferrer">https://aidbagentos.ai/projects</a>.
           </p>
 
         </div>
