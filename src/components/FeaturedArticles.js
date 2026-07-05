@@ -30,6 +30,14 @@ const secondaryArticles = [
     image: "/ai-dev.png",
     link: "/blog/ai-formula",
   },
+  {
+    category: "Building an Agent OS",
+    headline: "How to build an Agent OS for AI applications",
+    dek: "An agent OS is a framework that allows AI systems to have context and interact with each other, outside applications, the environment.",
+    readTime: "4 min read",
+    image: "/agent-os.png",
+    link: "/blog/ai-os  ",
+  },
 ];
 
 function FeaturedArticles() {
