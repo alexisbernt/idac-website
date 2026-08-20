@@ -5,39 +5,64 @@ import "../styles/FeaturedArticles.css";
 // and links. The "lead" article is the big left-hand story; "secondary"
 // are the two smaller stacked stories on the right.
 const leadArticle = {
-  category: "Identity & Security",
-  headline: "'Cara de pau' to get to the 2026 Identiverse conference",
-  dek: "The story of how I got introduced to Identity Access Management",
-  readTime: "3 min read",
-  image: "/identiverse-26.png",
-  link: "/blog/identiverse-2026",
+  category: "Technology & Identity",
+  headline: "News in Technology: August 2026 Edition",
+  dek: "Cool technical things you should know about, including CarPlay, multi-agent AI, and 3 different answers from the same prompt.",
+  readTime: "7 min read",
+  image: "/num_3.png",
+  link: "/blog/august-newsletter",
 };
 
 const secondaryArticles = [
   {
-    category: "RAG: Retrieval-Augmented Generation",
-    headline: "An insight to what is going on behind the scenes of ChatGPT and other LLMs",
-    dek: "What is Retrieval-Augmented Generation? In Basic Terms with a Weird Comparison",
-    readTime: "7 min read",
-    image: "/rag.png",
-    link: "/blog/rag",
+    category: "Health | Artificial Intelligence",
+    headline: "MY AI COACH: How I Reworked My Marathon Training Plan",
+    dek: "I built an AI agent that rebuilt my marathon training plan every single day. Here's what I learned.",
+    readTime: "4 min read",
+    image: "/ai-coach.png",
+    link: "/blog/ai-coach",
   },
   {
-    category: "AI Prompting Formula: The Hack to Get Better Results",
-    headline: "Four things to include in your prompt to get better results from AI",
-    dek: "Turning vague prompts into specific ones can help you get better results from AI. Here's a simple formula to follow.",
+    category: "Health | Science | Technology",
+    headline: "My Tennis Story, The Science of Tennis, and the Technology Behind It Now",
+    dek: "How Tennis, Science, and Technology Intersect.",
     readTime: "4 min read",
-    image: "/ai-dev.png",
-    link: "/blog/ai-formula",
+    image: "/era-tennis.png",
+    link: "/blog/eras-of-tennis",
   },
   {
-    category: "Building an Agent OS",
-    headline: "How to build an Agent OS for AI applications",
-    dek: "An agent OS is a framework that allows AI systems to have context and interact with each other, outside applications, the environment.",
-    readTime: "4 min read",
-    image: "/agent-os.png",
-    link: "/blog/ai-os  ",
+    category: "Identity & Security",
+    headline: "'Cara de pau' to get to the 2026 Identiverse conference",
+    dek: "The story of how I got introduced to Identity Access Management",
+    readTime: "6 min read",
+    image: "/identiverse-26.png",
+    link: "/blog/identiverse-2026",
   },
+  // {
+  //   category: "RAG: Retrieval-Augmented Generation",
+  //   headline: "An insight to what is going on behind the scenes of ChatGPT and other LLMs",
+  //   dek: "What is Retrieval-Augmented Generation? In Basic Terms with a Weird Comparison.",
+  //   readTime: "5 min read",
+  //   image: "/rag.png",
+  //   link: "/blog/rag",
+  // },
+
+  // {
+  //   category: "Building an Agent OS",
+  //   headline: "How to build an Agent OS for AI applications",
+  //   dek: "An agent OS is a framework that allows AI systems to have context and interact with each other, outside applications, the environment.",
+  //   readTime: "4 min read",
+  //   image: "/agent-os.png",
+  //   link: "/blog/ai-os  ",
+  // },
+  // {
+  //   category: "Understanding IDPro's Slack Workspace",
+  //   headline: "A Quick Overview of IDPro's Slack Workspace",
+  //   dek: "I'm interested in Identity and Access Management. One of the things that was heavily encouraged to me was to join IDPro.",
+  //   readTime: "1 min read",
+  //   image: "/slack.png",
+  //   link: "/blog/slack",
+  // },
 ];
 
 function FeaturedArticles() {

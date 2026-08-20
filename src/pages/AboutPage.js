@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/AboutPage.css";
+import TreasureMap from "../components/TreasureMap";
 
 // EmailJS credentials, pulled from environment variables so they never
 // get committed to git. See .env.local (gitignored) for actual values.
@@ -59,13 +60,36 @@ function AboutPage() {
     <>
       <Navbar />
 
+      <section className="page-section about-section">
+        <h1>print("Hello World!")</h1>
+
+        <div className="about-flex">
+          <div className="about-text">
+            <p>
+              Welcome to Lexi's Cyber Club: A Technology Blog By Alexis Bernthal! This is where technical things get explained! This space covers all things from identity and access management, to artificial intelligence, and cybersecurity. 
+              The goal of this blog is to give you relevant, fast, and interesting insights so you know more. 
+              Become a part of Cyber Club by entering your email below.
+            </p>
+            {/* I'm sending a *virtual hug* to all the tech enthusiasts out there who are navigating this complex landscape. */}
+          </div>
+
+          <img
+            src="pro-head-2026.png"
+            alt="Description of image"
+            className="about-image"
+          />
+        </div>
+        </section>
+
       <section className="newsletter-section">
         <div className="newsletter-card">
           <h2 className="newsletter-heading">
-            Identity Access Management insights to your inbox.
+            Join Cyber Club!
           </h2>
           <p className="newsletter-subtext">
-            Sign up to access free newsletters. No spam, just the good stuff. Once a week maximum, and you can unsubscribe anytime.
+            Sign up to access free materials and join the club. No spam, just the good stuff: 
+            Insights, stories, trending tech news, conference/event updates.
+            Once a week maximum, and you can unsubscribe anytime.
           </p>
 
           <form className="newsletter-form" onSubmit={handleSubmit} noValidate>
@@ -87,8 +111,8 @@ function AboutPage() {
               />
               <span>
                 By creating an account, you agree to our{" "}
-                <a href="/terms">Terms &amp; Conditions</a> and{" "}
-                <a href="/privacy">Privacy Policy</a>.
+                <a href="/#/terms-conditions">Terms &amp; Conditions</a> and{" "}
+                <a href="/#/terms-conditions">Privacy Policy</a>.
               </span>
             </label>
 
@@ -127,20 +151,17 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="page-section about-section">
-        <h1>About</h1>
+      <hr className="section-divider" />
 
-        <p>
-          This blog follows a technology journey through identity access management, artificial intelligence, and cybersecurity. 
-          {/* It is a place to share insights, stories, podcast recs, conference updates, and lessons learned along the way. */}
-        </p>
-
-        <p>
-          A modern digital treasure map documenting the
-          twists and turns along the way.
-          Join the club and sign up for free (please)!
-        </p>
-      </section>
+      <section className="home-content">
+              <h2>The Map To Cybersecurity &amp; Technology</h2>
+              <p>
+                Learn advancements in artificial intelligence, identity and access management, cybersecurity, and more through Lexi's Cyber Club. 
+                Here’s my digital learning map so far. Start yours today by joining 50+ and counting! 
+              </p>
+            </section>
+      
+            <TreasureMap />
 
       <Footer />
     </>

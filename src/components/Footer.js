@@ -8,7 +8,7 @@ function Footer() {
 
         {/* ── Left: copyright ── */}
         <p className="footer-copy">
-          © IAM LEARNING BLOG &nbsp;·&nbsp; Following the path to learn identity one step at a time.
+          © Lexi's Cyber Club - TECHNOLOGY BLOG &nbsp;·&nbsp; Technical Things Explained &nbsp;·&nbsp; All rights reserved.
         </p>
 
         {/* ── Right: links ── */}
@@ -17,6 +17,10 @@ function Footer() {
           {/* Free Member → /about */}
           <Link to="/about" className="footer-link">
             Free Member
+          </Link>
+
+          <Link to="https://www.instagram.com/alexisbernt/" className="footer-link" target="_blank" rel="noopener noreferrer">
+            Instagram
           </Link>
 
           <span className="footer-divider" aria-hidden="true">·</span>

@@ -12,7 +12,7 @@ function Navbar() {
           className="logo-image"
         />
         <p className="logo-subtitle">
-          A blog by Alexis Bernthal
+          Connecting the biggest moments in tech, sports, and current events
         </p>
       </div>
 
@@ -21,6 +21,7 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/blog">Blog</Link>
+        <Link to="/videos">Videos</Link>
       </div>
     </nav>
   );

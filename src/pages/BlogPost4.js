@@ -10,6 +10,33 @@ function Blog4() {
 
       <article className="blog-post">
 
+        {/* ── Embedded video ── */}
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            maxWidth: "360px",
+            aspectRatio: "9 / 16",
+            margin: "0 auto 24px",
+          }}
+        >
+          <iframe
+            src="https://www.youtube.com/embed/Fdsb38VFvhI"
+            title="YouTube video player"
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              border: 0,
+            }}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+
         {/* ── Breadcrumb ── */}
         <p className="blog-breadcrumb">
           <span>Technology</span>
